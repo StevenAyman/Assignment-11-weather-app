@@ -1,0 +1,136 @@
+/* Variables start */
+:root {
+  --main-color: #1e202b;
+}
+/* Variables end */
+body {
+  font-family: sans-serif;
+}
+/* Header section start */
+nav {
+  background-color: var(--main-color);
+}
+
+header nav img {
+  width: 70px;
+}
+
+header figcaption p {
+  font-size: 10px;
+}
+
+.nav-link {
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 30px;
+}
+
+.nav-link.activ,
+.nav-link:hover {
+  color: #109ad8;
+  border: 2px solid #109ad8;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../images/icons8-menu-rounded-60.png");
+}
+/* Header section end */
+/* Main section start */
+.main-section {
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-color: var(--main-color);
+}
+
+.search button {
+  right: 5px;
+  top: 3px;
+  border-radius: 50px;
+  padding: 12px 40px;
+  color: white;
+}
+
+.search :first-child {
+  background-color: var(--main-color);
+  border: none;
+  color: white;
+}
+
+.search button:hover {
+  color: white;
+}
+
+:focus {
+  box-shadow: none !important;
+}
+
+::placeholder {
+  color: gray !important;
+}
+
+.card {
+  background-color: #323544;
+  color: #bfc1c8;
+}
+
+.card .card-header {
+  background-color: #2f3240;
+}
+
+.card.today .card-body .degree {
+  font-size: 90px;
+}
+
+.card.today .weather-degree img {
+  width: 100px;
+}
+
+.card .weather-degree img {
+  width: 50px;
+}
+
+.card .weather-state {
+  font-size: 14px;
+}
+
+.row :nth-child(even) .card {
+  background-color: #262936;
+}
+
+.row :nth-child(even) .card .card-header {
+  background-color: #262936;
+}
+/* Main section end */
+/* Footer section start */
+footer {
+  background-color: #262936;
+}
+
+footer .search button {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+footer .icons .icon {
+  background-color: var(--main-color);
+  width: 40px;
+  height: 40px;
+}
+
+footer .icons a {
+  color: #3096e0;
+}
+
+footer .icons a:hover {
+  color: #fff;
+}
+
+footer .icons a:hover .icon {
+  background-color: #109ad8;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Footer section end */
